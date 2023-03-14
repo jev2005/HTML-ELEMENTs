@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Elements</title>
+	<style>
+		#myHeader {
+		  background-color: lightblue;
+		  color: black;
+		  padding: 10px;
+		  text-align: center;
+		}
+		.city {
+		  background-color: tomato;
+		  color: white;
+		  border: 10px solid black;
+		  margin: 20px;
+		  padding: 20px;
+		}
+		.myDiv {
+		  border: 5px outset red;
+		  background-color: lightblue;
+		  text-align: center;
+		}
+		p {
+			font-family: Arial, sans-serif;
+			font-size: 15px;
+			color: #333;
+			background-color: #ADD8E6;
+			border-bottom: 5px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Jevone Green webpage</h1>
+		<p>Posted by Jevone Green</p>
+		<p>Knox Community college</p>
+	</header>
+less
+Copy code
+<nav>
+	<a href="https://www.w3schools.com/html/">HTML</a> |
+	<a href="https://www.w3schools.com/css/">CSS</a> |
+	<a href="https://www.w3schools.com/js/">JavaScript</a> |
+	<a href="https://www.w3schools.com/python/">Python</a>
+</nav>
+
+<h1>HTML Elements</h1>
+
+<h2>sup</h2>
+<p>The <sup>sup</sup> element is used to indicate superscript text.</p>
+
+<h2>sub</h2>
+<p>The <sub>sub</sub> element is used to indicate subscript text.</p>
+
+<h2>blockquote</h2>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+<h2>i</h2>
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+<h2>id</h2>
+<h1 id="myHeader">My Header</h1>
+
+<h2>class</h2>
+<div class="city">
+	<h2>London</h2>
+	<p>London is the capital of England.</p>
+</div>
+
+<h2>footer</h2>
+<footer>
+	<p>Author: Hege Refsnes<br>
+		<a href="mailto:jevonegreen@yahoo.com">myemail.com</a></p>
+</footer>
+
+<h2>div</h2>
+<div class="myDiv">
+	<h2>This is a heading in a div element</h2>
+	<p>This is some text in a div element.</p>
+</div>
+</body>
+</html> 
